@@ -21,6 +21,9 @@ class Zoo {
 		int numSloths;
 		int numRobots;
 		
+		std::string expenses;
+		double totalExpenses;
+		
 	public:
 		Zoo();
 		
@@ -50,6 +53,8 @@ class Zoo {
 		void randEventAndRevenue(int);
 		void purchase(int,int);
 		
+		int countAnimals();
+		
 		int countMonkeys();
 		int countSeaOtters();
 		int countSloths();
@@ -74,6 +79,10 @@ class Zoo {
 		void removeSeaOtter(int);
 		void removeSloth(int);
 		void removeRobot(int);
+		
+		void addExpense(std::string);
+		
+		~Zoo();
 		
 		
 

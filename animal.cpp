@@ -1,15 +1,19 @@
+/*********************************************************************
+** Program Filename: animal.cpp
+** Author: Joshua Wentzel
+** Date: 2/15/2018
+** Description: Play Zoo Tycoon.
+** Input: Playing cards to guess for.
+** Output: Zoo Tycoon gameplay.
+*********************************************************************/
+
 #include <iostream>
-//#include <locale>
-//#include <string>
 
 #include "animal.hpp"
 
-
 using namespace std;
 
-
 Animal::Animal(){}
-
 
 void Animal::ageOneDay(){
 	age++;
@@ -45,5 +49,3 @@ int Animal::getFoodMultiplier(){return foodMultiplier;}
 void Animal::setAge(int ageInDays){
 	age = ageInDays;
 }
-
-
